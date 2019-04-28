@@ -65,13 +65,13 @@ function translateText(txt, targetEncoding) {
 		return "";
 	}
 	if (targetEncoding == 1) {
-		return Simplized(txt);
+		return txt + " 🇨🇳: " + Simplized(txt);
 	}
 	else if (targetEncoding == 2) {
-		return Traditionalized(txt);
+		return txt + " 🇹🇼: " + Traditionalized(txt);
 	}
 	else if (targetEncoding == 3)  {
-		return Pinyin(txt);
+		return txt + " 🐼 :" + Pinyin(txt);
 	}
 	else {
 		return txt;
