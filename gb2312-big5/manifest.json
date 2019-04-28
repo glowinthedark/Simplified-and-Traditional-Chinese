@@ -18,7 +18,7 @@
     "128": "images/icon-128.png"
   },  
   "update_url":"http://clients2.google.com/service/update2/crx",
-  "description": "ZH-CN (GB2312) <---> ZH-TW (BIG5)",
+  "description": "ZH-CN/ZH-TW/Pinyin/TW-Pinyin",
   "web_accessible_resources": [
   		"js/*", 
   		"images/*",
